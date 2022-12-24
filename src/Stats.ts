@@ -38,8 +38,11 @@ export class Stats {
   }
 
   public async intitialize() {
+    console.log('Getting github username & fullname')
     const githubName = await Query.githubName()
+    console.log('Getting repositories list')
     await this.setRepositories()
+    console.log('Getting repositories contribution list')
     await this.setRepositoriesContrib()
 
     for (const node of this.repos) {
@@ -52,6 +55,7 @@ export class Stats {
         })
 
         if (!this.excludeLanguages.includes(lang.node.name.toLowerCase())) {
+          console.log(`Processing language ${lang.node.name}`)
           if (index == -1) {
             this.languages.push({
               name: lang.node.name,
@@ -65,6 +69,8 @@ export class Stats {
           }
 
           this.languageTotalSize += lang.size
+        } else {
+          console.log(`Skipping language ${lang.node.name}`)
         }
 
       }
@@ -80,8 +86,14 @@ export class Stats {
 
     this.name = githubName.name ?? 'No Name'
     this.login = githubName.login ?? 'No Name'
+
+    console.log('Getting total contribution number')
     this.totalContrib = await this.getTotalContrib()
+
+    console.log('Getting total line changed')
     await this.setLineChanged()
+
+    console.log('Getting views count')
     await this.setViews()
   }
 
@@ -94,7 +106,10 @@ export class Stats {
       repo.nodes.forEach((node: INodes) => {
         const name = node.nameWithOwner.split('/')
         if (!this.excludeRepos.includes((name[1] || name[0]).toLowerCase())) {
+          console.log(`Processing repository ${node.nameWithOwner}`)
           this.repos.push(node)
+        } else {
+          console.log(`Skipping repository ${node.nameWithOwner}`)
         }
       })
 
@@ -115,7 +130,10 @@ export class Stats {
       repo.nodes.forEach((node: INodes) => {
         const name = node.nameWithOwner.split('/')
         if (!this.excludeRepos.includes((name[1] || name[0]).toLowerCase())) {
+          console.log(`Processing repository contribution ${node.nameWithOwner}`)
           this.repos.push(node)
+        } else {
+          console.log(`Skipping repository contribution ${node.nameWithOwner}`)
         }
       })
 

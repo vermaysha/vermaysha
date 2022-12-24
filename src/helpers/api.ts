@@ -1,10 +1,18 @@
 import axios from 'axios'
+import { exit } from 'process'
 import randomAgent from 'random-useragent'
+
+const token = process.env.GITHUB_TOKEN || null
+
+if (!token) {
+  console.log('GITHUB_TOKEN does\'nt exists')
+  exit(0)
+}
 
 const headers = {
   'Content-Type': 'application/json',
   'User-Agent': randomAgent.getRandom(),
-  'Authorization': `Bearer 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`
+  'Authorization': `Bearer ${token}`
 }
 
 export async function graphql(query: string) {

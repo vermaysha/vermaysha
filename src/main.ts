@@ -4,8 +4,8 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs'
 import { numberWithCommas } from "./helpers";
 
 (async () => {
-  const excludeRepository = 'ecommerce,mahasiswa-crud,pvj,TugasTokoJAVA,qrcode,AplikasiKasir,ROR-Simple-CRUD,2048-game-with-js,toko-buku,ecommerce-pkk,perpustakaan_java,lsp_laundry,lelang,lumen-auth-example,point-of-sales,portfolio,github-stats-transparent'
-  const excludeLanguages = 'blade,vue,html,css,html,nix,procfile'
+  const excludeRepository = process.env.EXCLUDE_REPO || ''
+  const excludeLanguages = process.env.EXCLUDE_LANG || ''
   const stats = new Stats(excludeRepository, excludeLanguages)
   await stats.intitialize()
 
@@ -22,6 +22,7 @@ import { numberWithCommas } from "./helpers";
 })();
 
 function generateMostUsedLanguage(stats: Stats, generatedPath: string) {
+  console.log('Generating most used language images ..')
   let progress: string = ''
   let langList: string = ''
   let delayBetween: number = 150
@@ -64,9 +65,11 @@ function generateMostUsedLanguage(stats: Stats, generatedPath: string) {
     .replace('{{ lang_list }}', langList)
 
   writeFileSync(resolve(generatedPath, 'languages.svg'), out)
+  console.log('Most used language images has been generated')
 }
 
 function generateOverview(stats: Stats, generatedPath: string) {
+  console.log('Generating overview images ..')
   const svg = readFileSync(resolve(__dirname, '../', 'templates', 'overview.svg'), 'utf8')
 
   const totalLineChanged = stats.lineChanged.additions + stats.lineChanged.deletions
@@ -80,4 +83,5 @@ function generateOverview(stats: Stats, generatedPath: string) {
     .replace('{{ repos }}', numberWithCommas(stats.repos.length.toString()))
 
     writeFileSync(resolve(generatedPath, 'overview.svg'), out)
+    console.log('Vverview images has been generated')
 }
