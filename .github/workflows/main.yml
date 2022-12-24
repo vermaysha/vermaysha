@@ -1,0 +1,59 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Generate Stats Images
+
+# Controls when the action will run. Triggers the workflow on push events
+on:
+  push:
+    branches: [ master ]
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in
+# parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out repository under $GITHUB_WORKSPACE, so the job can access it
+    - uses: actions/checkout@v3
+
+    # Run using Node 18
+    - name: Set up Node 18
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18.x'
+
+    # Install dependencies with `yarn``
+    - name: Install requirements
+      run: yarn
+
+    - name: Build dependencies
+      run: yarn build
+
+    # Generate all statistics images
+    - name: Generate images
+      run: node dist/main.js
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        EXCLUDED: ${{ secrets.EXCLUDED }}
+        EXCLUDED_LANGS: ${{ secrets.EXCLUDED_LANGS }}
+        COUNT_STATS_FROM_FORKS: ${{ secrets.COUNT_STATS_FROM_FORKS }}
+
+    # Commits all changed files to the repository
+    - name: Commit to the output branch of repo
+      run: |
+        git config --global user.name "github-stats[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add .
+        git commit -m 'temp commit' || echo
+        git checkout output 2>/dev/null || git checkout --orphan output && git rm -rf . && git checkout master -- generated/
+        # "echo" returns true so the build succeeds, even if no changed files
+        git commit -m 'Update generated files' || echo
+        git push origin output -f
