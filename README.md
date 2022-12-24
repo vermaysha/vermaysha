@@ -17,10 +17,10 @@ I am a versatilist and easily adapt to different hats (Full Stack Web Developer 
 </a> -->
 
 ### 📊 Github Stats
-<a href='https://github.com/rahul-jha98/github-stats-transparent'>
+<a href='https://github.com/vermaysha'>
   
-![Stats Overview](https://raw.githubusercontent.com/vermaysha/github-stats-transparent/output/generated/overview.svg)
-![Most Used Languages](https://raw.githubusercontent.com/vermaysha/github-stats-transparent/output/generated/languages.svg)
+![Stats Overview](https://raw.githubusercontent.com/vermaysha/vermaysha/output/generated/overview.svg)
+![Most Used Languages](https://raw.githubusercontent.com/vermaysha/vermaysha/output/generated/languages.svg)
 
 </a>
 
