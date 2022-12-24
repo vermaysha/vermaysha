@@ -2,11 +2,11 @@ import axios from 'axios'
 import { exit } from 'process'
 import randomAgent from 'random-useragent'
 
-const token = process.env.PERSONAL_TOKEN || null
+const token = process.env.ACCESS_TOKEN || null
 
 if (!token) {
-  console.log('PERSONAL_TOKEN does\'nt exists')
-  exit(0)
+  console.log('ACCESS_TOKEN does\'nt exists')
+  exit(1)
 }
 
 const headers = {
