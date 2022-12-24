@@ -1,0 +1,34 @@
+{
+  "name": "vermaysha",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My Github Profile",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "ts-node src/main.ts",
+    "build": "del-cli dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vermaysha/vermaysha.git"
+  },
+  "author": "Ashary Vermaysha",
+  "bugs": {
+    "url": "https://github.com/vermaysha/vermaysha/issues"
+  },
+  "homepage": "https://github.com/vermaysha/vermaysha#readme",
+  "dependencies": {
+    "axios": "1.2.1",
+    "lodash": "4.17.21",
+    "random-useragent": "0.5.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/node": "18.11.17",
+    "@types/random-useragent": "^0.3.1",
+    "del-cli": "5.0.0",
+    "ts-node": "10.9.1",
+    "tslib": "2.4.1",
+    "typescript": "4.9.4"
+  }
+}
