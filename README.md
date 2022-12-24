@@ -26,6 +26,13 @@ I am a versatilist and easily adapt to different hats (Full Stack Web Developer 
 
 <br>
 
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/vermaysha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="vermaysha" height="30" width="40" /></a>
+<a href="https://fb.com/vermaysha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="vermaysha" height="30" width="40" /></a>
+<a href="https://instagram.com/vermaysha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="vermaysha" height="30" width="40" /></a>
+</p>
+
 <!--
 **vermaysha/vermaysha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
