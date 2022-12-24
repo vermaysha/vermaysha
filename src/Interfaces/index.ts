@@ -1,0 +1,5 @@
+export { IGithubName } from './IGithubName'
+export { IRepository } from './IRepository'
+export { INodes } from './INodes'
+export { IContrib } from './IContrib'
+export { IContribByYear } from './IContribByYear'
