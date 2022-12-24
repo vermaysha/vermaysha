@@ -2,10 +2,10 @@ import axios from 'axios'
 import { exit } from 'process'
 import randomAgent from 'random-useragent'
 
-const token = process.env.GITHUB_TOKEN || null
+const token = process.env.PERSONAL_TOKEN || null
 
 if (!token) {
-  console.log('GITHUB_TOKEN does\'nt exists')
+  console.log('PERSONAL_TOKEN does\'nt exists')
   exit(0)
 }
 
