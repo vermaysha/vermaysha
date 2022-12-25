@@ -31,6 +31,22 @@ I am a versatilist and easily adapt to different hats (Full Stack Web Developer 
 
 <br>
 
+<h3>:headphones: My Favourite Music</h3>
+
+<!-- Nothing weird to see here -->
+<p align="center">
+  <a href="https://spotify-stats-rust.vercel.app/api/now-playing?open=true">
+    <!-- Music bars move to the beat and are colored based on the track's happiness, danceability and energy! -->
+    <img src="https://spotify-stats-rust.vercel.app/api/now-playing">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://spotify-stats-rust.vercel.app/api/top-played">
+</p>
+
+<br>
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/vermaysha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="vermaysha" height="30" width="40" /></a>
