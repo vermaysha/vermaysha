@@ -163,34 +163,38 @@ export class Stats {
 
   private async setLineChanged() {
     for (const repo of this.repos) {
-      const res = await api(`repos/${repo.nameWithOwner}/stats/contributors`)
+      try {
+        const res = await api(`repos/${repo.nameWithOwner}/stats/contributors`)
 
-      if (!isIterable(res.data)) {
-        continue
-      }
-
-      for (const data of res.data) {
-        if (data.author.login !== this.login) {
+        if (!isIterable(res.data)) {
           continue
         }
 
-        for (const week of data.weeks) {
-          this.lineChanged.additions += week.a || 0
-          this.lineChanged.deletions += week.d || 0
+        for (const data of res.data) {
+          if (data.author.login !== this.login) {
+            continue
+          }
+
+          for (const week of data.weeks) {
+            this.lineChanged.additions += week.a || 0
+            this.lineChanged.deletions += week.d || 0
+          }
         }
-      }
+      } catch {}
     }
   }
 
   private async setViews() {
     for (const repo of this.repos) {
-      const res = await api(`repos/${repo.nameWithOwner}/traffic/views`)
+      try {
+        const res = await api(`repos/${repo.nameWithOwner}/traffic/views`)
 
-      if (!res.data.count) {
-        continue
-      }
+        if (!res.data.count) {
+          continue
+        }
 
-      this.views += res.data.count
+        this.views += res.data.count
+      } catch {}
     }
   }
 }
