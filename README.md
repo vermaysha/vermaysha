@@ -9,12 +9,18 @@
 <br>
 I am a versatilist and easily adapt to different hats (Full Stack Web Developer 🌐 beginner level Designer 🎨) depending on what the project requires. I love exploring new tech stack 💻 and leveraging them to build cool stuffs 🛠️.
 
+- 🔭 I’m currently working on [Whatsapp Gateway](https://github.com/vermaysha/whatsapp-gateway)
 
-<!-- ### 📊 Github Stats
-<a href="https://github.com/vermaysha">
-  <img src="https://github-readme-stats.vercel.app/api?username=vermaysha&hide=contribs&show_icons=true&theme=transparent&include_all_commits=true&count_private=true&line_height=24&show_owner=true" alt="Stats Overview"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vermaysha&layout=compact&exclude_repo=ecommerce,mahasiswa-crud,pvj,TugasTokoJAVA,qrcode,AplikasiKasir,ROR-Simple-CRUD,2048-game-with-js,toko-buku,ecommerce-pkk,lsp-laundry,lelang,lumen-auth-example,chat,point-of-sales,portfolio,work-order,perpustakaan_java" alt="Most Used Languages"/>
-</a> -->
+- 👨‍💻 All of my projects are available at [vermaysha.com](vermaysha.com)
+
+- 📫 How to reach me **vermaysha@gmail.com**
+
+
+### 🌐 Socials:
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/vermaysha) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/vermaysha) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/vermaysha) 
+
+### 💻 Tech Stack:
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
 
 ### 📊 Github Stats
 <a href='https://github.com/vermaysha'>
@@ -24,19 +30,26 @@ I am a versatilist and easily adapt to different hats (Full Stack Web Developer 
 
 </a>
 
+<h3>:headphones: My Favourite Music</h3>
+
+<!-- Nothing weird to see here -->
+<p align="center">
+  <a href="https://spotify-stats-rust.vercel.app/api/now-playing?open=true">
+    <!-- Music bars move to the beat and are colored based on the track's happiness, danceability and energy! -->
+    <img src="https://spotify-stats-rust.vercel.app/api/now-playing">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://spotify-stats-rust.vercel.app/api/top-played">
+</p>
+
 <br>
 
-<!--
-**vermaysha/vermaysha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<!-- <h3 align="left">🌐 Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/vermaysha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="vermaysha" height="30" width="40" /></a>
+<a href="https://fb.com/vermaysha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="vermaysha" height="30" width="40" /></a>
+<a href="https://instagram.com/vermaysha" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="vermaysha" height="30" width="40" /></a>
+</p>
 -->
