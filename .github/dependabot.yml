@@ -12,7 +12,7 @@ updates:
       interval: "weekly"
 
   # yarn
-  - package-ecosystem: "yarn"
+  - package-ecosystem: "npm"
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
