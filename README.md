@@ -30,7 +30,7 @@ I am a versatilist and easily adapt to different hats (Full Stack Web Developer 
 
 </a>
 
-<h3>:headphones: My Favourite Music</h3>
+<h3>:headphones: Now listening !</h3>
 
 <!-- Nothing weird to see here -->
 <p align="center">
