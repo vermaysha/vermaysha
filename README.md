@@ -9,12 +9,12 @@
 <br>
 I am a versatilist and easily adapt to different hats (Full Stack Web Developer 🌐 beginner level Designer 🎨) depending on what the project requires. I love exploring new tech stack 💻 and leveraging them to build cool stuffs 🛠️.
 
-- 🔭 I’m currently working on [Whatsapp Gateway](https://github.com/vermaysha/whatsapp-gateway)
+<!-- - 🔭 I’m currently working on [Whatsapp Gateway](https://github.com/vermaysha/whatsapp-gateway)
 
 - 👨‍💻 All of my projects are available at [vermaysha.com](vermaysha.com)
 
 - 📫 How to reach me **vermaysha@gmail.com**
-
+ -->
 
 ### 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/vermaysha) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/vermaysha) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/vermaysha) [![Discord](https://img.shields.io/badge/FrozenNight%236584-%237289da.svg?logo=discord&logoColor=white)](https://discordapp.com/users/505019829829500936)
