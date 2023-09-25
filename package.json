@@ -23,7 +23,7 @@
     "random-useragent": "0.5.0"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.198",
+    "@types/lodash": "^4.14.199",
     "@types/node": "18.16.3",
     "@types/random-useragent": "^0.3.1",
     "del-cli": "5.1.0",
