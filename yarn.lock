@@ -109,10 +109,10 @@
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz#d3357479a0fdfdd5907fe67e17e0a85c906e1301"
   integrity sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==
 
-"@types/random-useragent@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@types/random-useragent/-/random-useragent-0.3.1.tgz#1f0e1e08151f04d2c023ab77c8173dfa5b5049d2"
-  integrity sha512-yVz7897JjjwS6V+lmxlu8pktzNnNWgtF9MGxfaRfI8o+hQageO9K+0hfwr8PspdFJIIRE9KkLqp4o5tlQqv/0w==
+"@types/random-useragent@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@types/random-useragent/-/random-useragent-0.3.2.tgz#38ca0edf89f13aaba5f420e88096ac135a4a7b63"
+  integrity sha512-UN4qSfQf1jQ1iEoSTdMHweKa4UAXFeOrFIpfODbA4M5ubdjZfjrFlhidkjcaDAkNsR3dfJkHObtuSpB2M1P1OA==
 
 acorn-walk@^8.1.1:
   version "8.2.0"
