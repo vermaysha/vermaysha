@@ -25,7 +25,7 @@ jobs:
 
     # Run using Node 18
     - name: Set up Node 18
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: '18.x'
 
