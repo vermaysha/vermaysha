@@ -36,7 +36,7 @@ I am a versatilist and easily adapt to different hats (Full Stack Web Developer 
 <p align="center">
   <a href="https://spotify-stats-beige.vercel.app/api/now-playing?open=true">
     <!-- Music bars move to the beat and are colored based on the track's happiness, danceability and energy! -->
-    <img src="https://spotify-stats-rust.vercel.app/api/now-playing">
+    <img src="https://spotify-stats-beige.vercel.app/api/now-playing">
   </a>
 </p>
 
