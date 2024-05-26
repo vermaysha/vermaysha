@@ -23,11 +23,11 @@ jobs:
     # Checks-out repository under $GITHUB_WORKSPACE, so the job can access it
     - uses: actions/checkout@v4
 
-    # Run using Node 18
-    - name: Set up Node 18
+    # Run using Node LTS
+    - name: Set up Node LTS
       uses: actions/setup-node@v4
       with:
-        node-version: '18.x'
+        node-version: 'lts/*'
 
     # Install dependencies with `yarn``
     - name: Install requirements
