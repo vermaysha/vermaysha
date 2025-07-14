@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.17.20",
-    "@types/node": "24.0.10",
+    "@types/node": "24.0.13",
     "@types/random-useragent": "^0.3.3",
     "del-cli": "6.0.0",
     "ts-node": "10.9.2",
