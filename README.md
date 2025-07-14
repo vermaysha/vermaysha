@@ -1,8 +1,8 @@
 <h1 align="center">Hi there 👋, I'm Ashary Vermaysha</h1>
 <!-- <h3 align="center">A software engineer</h3> -->
 <br/>
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Satisfy&size=35&pause=1000&color=51C2F7&center=true&vCenter=true&width=435&lines= I'm+Ashary+Vermaysha ;I'm+a+Full+Stack+Developer" alt="Typing SVG" />
+<!-- <div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Satisfy&size=35&pause=1000&color=51C2F7&center=true&vCenter=true&width=435&lines= I'm+Ashary+Vermaysha ;I'm+a+Full+Stack+Developer" alt="Typing SVG" /> -->
 </div>
 <!-- <hr/> -->
 
